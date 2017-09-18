@@ -1,7 +1,21 @@
-介绍
+##介绍
 
 ### 1. 代码结构
 
+```
+├── README.MD
+├── client_php
+│   ├── composer.json
+│   ├── composer.lock
+│   ├── gen_php
+│   └── learn_thrift.php
+├── learn.thrift
+└── server_java
+    ├── pom.xml
+    └── src
+
+4 directories, 6 files
+```
 
 
 ### 2. 服务端说明
