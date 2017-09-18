@@ -26,7 +26,7 @@
 thrift -r --gen java learn.thrift
 ```
 
-server端的语言为java，使用maven管理依赖。
+server端的语言为java，使用maven管理依赖。编译并启动服务端。
 
 
 ### 3. 客户端说明
@@ -45,9 +45,10 @@ client端的语言为php，使用composer管理依赖。
 composer install
 ```
 
-执行
+执行客户端请求服务端
 
 ```
-php learn_thrift.php
+$ php learn_thrift.php
+{"errno":0,"errmsg":"OK","data":{"1":{"one":1,"two":2,"three":"three"}}}
 ```
 
